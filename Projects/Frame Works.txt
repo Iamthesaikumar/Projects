@@ -1,0 +1,27 @@
+What is a Framework?
+A framework is a collection of pre-written code that helps developers build applications faster.
+
+Our Project
+Our application is a Node.js application.
+Node.js is the runtime.
+Developers may use a framework like Express.js to build the application.
+
+JavaScript
+      │
+      ▼
+Node.js Runtime
+      │
+      ▼
+Express.js Framework
+      │
+      ▼
+Application
+
+| Programming Language | Framework              |
+| -------------------- | ---------------------- |
+| JavaScript           | React, Angular, Vue.js |
+| Node.js              | Express.js, NestJS     |
+| Java                 | Spring Boot            |
+| Python               | Django, Flask          |
+| C#                   | ASP.NET Core           |
+| PHP                  | Laravel                |

@@ -1,0 +1,36 @@
+| If you see...                        | It means...     | Programming Language | Runtime to Install        |
+| ------------------------------------ | --------------- | -------------------- | ------------------------- |
+| `package.json`                       | Node.js project | JavaScript           | ✅ Node.js Runtime         |
+| `.java`, `pom.xml`, `build.gradle`   | Java project    | Java                 | ✅ JDK / JRE               |
+| `requirements.txt`, `pyproject.toml` | Python project  | Python               | ✅ Python Runtime          |
+| `.csproj`, `.sln`                    | .NET project    | C#                   | ✅ .NET SDK / .NET Runtime |
+
+| Programming Language | Runtime                                   |
+| -------------------- | ----------------------------------------- |
+| **Java**             | ✅ JDK / JRE                               |
+| **JavaScript**       | ✅ Node.js Runtime                         |
+| **Python**           | ✅ Python Runtime                          |
+| **C#**               | ✅ .NET Runtime (.NET SDK for development) |
+
+
+Docker CLI
+(docker build / docker run)
+        │
+        ▼
+Docker Daemon (dockerd)
+        │
+        ├──────────────► Build Image
+        │
+        ├──────────────► Pull/Push Image
+        │
+        ├──────────────► Create Container
+        │
+        ├──────────────► Manage Networks
+        │
+        └──────────────► Manage Volumes
+                           │
+                           ▼
+                    Running Container
+                           │
+                           ▼
+                    Application Running
